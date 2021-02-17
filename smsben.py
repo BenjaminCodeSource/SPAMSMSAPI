@@ -17,7 +17,7 @@ def sms(benjamin):
   bin = wasap.text
   return(bin+"\nSPAM SMS BY BENJAMIN CODE")
 if __name__=='__main__':
- app.run(port=8080, debug=True)
+ app.run(debug=True)
  sms(benjamin)
  time.sleep(2)
  sms(spam)
